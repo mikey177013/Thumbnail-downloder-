@@ -1,0 +1,142 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #cbe8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Watermark */
+.phoenix-watermark {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+.phoenix-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.phoenix-logo span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #004c7c;
+  letter-spacing: 1px;
+}
+
+.logo-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+/* Container */
+.container {
+  background: white;
+  padding: 30px;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 20px;
+  box-shadow: 0 4px 25px rgba(0, 60, 120, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #003b62;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 2px solid #8fcfff;
+  background: #eef8ff;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4cb6ff;
+}
+
+/* Button */
+button {
+  width: 100%;
+  background: #4cb6ff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1996ff;
+}
+
+/* Thumbnail Section */
+.thumbnail {
+  margin-top: 25px;
+  display: none;
+  animation: fadeIn 0.4s ease;
+}
+
+.thumbnail img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 86, 255, 0.3);
+  margin-bottom: 15px;
+}
+
+/* Download Buttons */
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.dl-btn {
+  background: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #4cb6ff;
+  color: #004b7a;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+.dl-btn:hover {
+  background: #4cb6ff;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
