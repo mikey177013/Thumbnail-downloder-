@@ -4,7 +4,10 @@
 
 
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfMSwcXISpSqJlesWPK7CEu9iQplhBHTJLEfMiBtNSrsWZmhczr7x-RE8z&s=10" width="80%">A clean, modern, light-blue themed YouTube Thumbnail Downloader built with pure HTML, CSS, and JavaScript.
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfMSwcXISpSqJlesWPK7CEu9iQplhBHTJLEfMiBtNSrsWZmhczr7x-RE8z&s=10" width="80%">
+
+
+A clean, modern, light-blue themed YouTube Thumbnail Downloader built with pure HTML, CSS, and JavaScript.
 No backend, no API keys, no nonsense — it extracts the video ID and fetches HD thumbnails instantly.
 
 
