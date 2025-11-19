@@ -31,12 +31,12 @@ No backend, no API keys, no nonsense — it extracts the video ID and fetches HD
 ---
 
 📂 Project Structure
-
+```
 /
 ├── index.html
 ├── style.css
 └── script.js
-
+```
 
 ---
 
@@ -73,7 +73,7 @@ Zero backend calls. 100% browser powered.
 📦 Installation
 
 Clone the repo:
-
+```
 git clone https://github.com/mikey177013/thumbnail-downloader
 
 Open the project folder and run:
@@ -82,7 +82,7 @@ open index.html
 
 (Or drag the file into any browser.)
 
-
+```
 ---
 
 🛠️ Technologies Used
@@ -101,19 +101,7 @@ Canvas API
 
 ---
 
-🪶 Phoenix Watermark
 
-This project includes a custom Phoenix watermark with logo + GitHub link:
-
-<div class="phoenix-watermark">
-  <a href="https://github.com/mikey177013" target="_blank" class="phoenix-logo">
-    <img src="https://i.ibb.co/29SLN2z/Picsart-25-10-28-17-55-03-525.png" alt="Phoenix Logo" class="logo-img">
-    <span>PHOENIX</span>
-  </a>
-</div>
-
-
----
 
 📜 License
 
